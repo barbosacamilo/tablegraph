@@ -1,0 +1,46 @@
+{
+  "name": "tablegraph",
+  "version": "0.1.0",
+  "description": "Visualize database tables and relations locally.",
+  "type": "module",
+  "license": "ISC",
+  "author": "Camilo Barbosa",
+  "bin": {
+    "tablegraph": "./dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "NODE_ENV=development tsx src/cli/index.ts",
+    "clean": "rimraf dist",
+    "build:cli": "tsc -p tsconfig.json",
+    "build:web": "npm --prefix web run build",
+    "build": "npm run clean && npm run build:cli && npm run build:web",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/cli/index.js"
+  },
+  "keywords": [
+    "tablegraph",
+    "database",
+    "schema",
+    "postgres",
+    "visualizer",
+    "tables",
+    "relations",
+    "graph",
+    "cli"
+  ],
+  "dependencies": {
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/pg": "^8.18.0",
+    "rimraf": "^6.1.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

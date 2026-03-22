@@ -1,0 +1,14 @@
+node_modules/
+web/node_modules/
+dist/
+web/dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.tsbuildinfo
+coverage/
+docker/
+docker-compose.yml
+docker-compose.override.yml
