@@ -1,6 +1,6 @@
 {
   "name": "tablegraph",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Visualize database tables and relations locally.",
   "type": "module",
   "license": "ISC",
