@@ -3,7 +3,7 @@
 Visualize your database schema as an interactive graph directly in your browser.
 
 <p>
-  <img src="./assets/logo.png" alt="TableGraph logo" width="250" />
+  <img src="https://raw.githubusercontent.com/barbosacamilo/tablegraph/main/assets/logo.png" alt="TableGraph logo" width="250" />
 </p>
 
 ## What it does
@@ -45,7 +45,7 @@ tablegraph --driver postgres --url postgresql://postgres:postgres@localhost:5434
 ## Visualization
 
 <p align="center">
-  <img src="./assets/example.png" alt="TableGraph web visualization" />
+  <img src="https://raw.githubusercontent.com/barbosacamilo/tablegraph/main/assets/example.png" alt="TableGraph web visualization" />
 </p>
 
 ## Supported drivers
