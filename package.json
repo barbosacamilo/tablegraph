@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Visualize database tables and relations locally.",
   "type": "module",
-  "license": "ISC",
+  "license": "MIT",
   "author": "Camilo Barbosa",
   "bin": {
     "tablegraph": "./dist/cli/index.js"
